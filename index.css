@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand-maroon: #4a0404;
+  --color-brand-maroon-dark: #330202;
+  --color-brand-maroon-light: #6e0b0b;
+  --color-brand-maroon-deep: #260101;
+
+  --color-brand-gold: #d4af37;
+  --color-brand-gold-light: #F1E5C1;
+  --color-brand-gold-dark: #A1811F;
+  --color-brand-cream: #fffef7;
+  --color-brand-beige: #fbf9ec;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-brand-cream text-stone-800 overflow-x-hidden selection:bg-brand-maroon selection:text-brand-gold-light;
+  }
+}
+
+/* Custom Scrollbar for Luxury Experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #3D0210;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F1E5C1;
+}
+
+/* Glassmorphism utility */
+.glass-effect {
+  background: rgba(61, 2, 16, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

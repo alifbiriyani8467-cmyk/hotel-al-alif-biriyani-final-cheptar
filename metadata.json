@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Al Alif Biriyani",
+  "description": "Modern premium luxury restaurant website for Hotel Al Alif Biriyani, Singaperumal Koil, featuring a digital menu, WhatsApp ordering, and elegant responsive sections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
