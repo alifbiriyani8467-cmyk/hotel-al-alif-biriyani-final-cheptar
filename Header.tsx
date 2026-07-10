@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, Utensils, Award, Sun, Moon, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { useApp } from '../context/AppContext';
-
+import { useApp } from './AppContext';
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
