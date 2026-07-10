@@ -1,7 +1,7 @@
 import React from 'react';
 import { Gift, Zap, Sparkles, Users, ArrowRight, MessageSquare } from 'lucide-react';
 import { motion } from 'motion/react';
-import { useApp } from '../context/AppContext';
+import { useApp } from "./AppContext";
 
 export default function SpecialOffers() {
   const { t } = useApp();
