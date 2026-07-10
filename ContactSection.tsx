@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, MapPin, Clock } from 'lucide-react';
-import { useApp } from '../context/AppContext';
+import { useApp } from './AppContext';
 
 export default function ContactSection() {
   const { t, language } = useApp();
