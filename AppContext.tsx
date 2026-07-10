@@ -17,6 +17,7 @@ const translations: Record<Language, Record<string, string>> = {
   en: {
     home: 'Home',
     menu: 'Menu',
+    specialOffers: 'Special Offers',
     gallery: 'Gallery',
     reviews: 'Reviews',
     contact: 'Contact',
@@ -53,6 +54,7 @@ const translations: Record<Language, Record<string, string>> = {
   ta: {
     home: 'முகப்பு',
     menu: 'மெனு',
+    specialOffers: 'சிறப்பு சலுகைகள்',
     gallery: 'கேலரி',
     reviews: 'மதிப்புரைகள்',
     contact: 'தொடர்பு',
@@ -89,6 +91,7 @@ const translations: Record<Language, Record<string, string>> = {
   hi: {
     home: 'मुख्य पृष्ठ',
     menu: 'मेन्यू',
+    specialOffers: 'विशेष ऑफर्स',
     gallery: 'गैलरी',
     reviews: 'समीक्षाएं',
     contact: 'संपर्क',

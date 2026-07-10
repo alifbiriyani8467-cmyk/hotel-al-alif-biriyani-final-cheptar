@@ -39,6 +39,7 @@ export default function Header() {
 
   const menuItems = [
     { label: t('home'), id: 'home', action: () => scrollToSection('home') },
+    { label: t('specialOffers'), id: 'special-offers', action: () => scrollToSection('special-offers') },
     { label: t('menu'), id: 'menu', action: () => scrollToSection('menu') },
     { label: t('gallery'), id: 'gallery', action: () => scrollToSection('gallery') },
     { label: t('reviews'), id: 'reviews', action: () => scrollToSection('reviews') },

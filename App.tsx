@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
 import QuickInfo from './QuickInfo';
+import SpecialOffers from './SpecialOffers';
 import MenuSection from './MenuSection';
 import GallerySection from './GallerySection';
 import ReviewsSection from './ReviewsSection';
@@ -21,6 +22,9 @@ export default function App() {
 
       {/* Quick Details Section */}
       <QuickInfo />
+
+      {/* Special Offer Section */}
+      <SpecialOffers />
 
       {/* Interactive Digital Menu Section with WhatsApp Order Builder */}
       <MenuSection />
