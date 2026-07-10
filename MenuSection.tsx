@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
-import { MENU_ITEMS } from '../data';
-import { MenuItem } from '../types';
+import { MENU_ITEMS } from './data';
+import { MenuItem } from './types';
 import { ShoppingCart, Plus, Minus, MessageSquare, Flame, Check, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { useApp } from '../context/AppContext';
+import { useApp } from './AppContext';
 
 export default function MenuSection() {
   const { t, language } = useApp();
