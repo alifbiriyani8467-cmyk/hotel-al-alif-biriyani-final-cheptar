@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import QuickInfo from './components/QuickInfo';
-import SpecialOffers from './components/SpecialOffers';
-import MenuSection from './components/MenuSection';
-import GallerySection from './components/GallerySection';
-import ReviewsSection from './components/ReviewsSection';
-import ContactSection from './components/ContactSection';
-import FloatingButtons from './components/FloatingButtons';
-import AIChatAssistant from './components/AIChatAssistant';
-import Footer from './components/Footer';
+import Header from './Header';
+import Hero from './Hero';
+import QuickInfo from './QuickInfo';
+import SpecialOffers from './SpecialOffers';
+import MenuSection from './MenuSection';
+import GallerySection from './GallerySection';
+import ReviewsSection from './ReviewsSection';
+import ContactSection from './ContactSection';
+import FloatingButtons from './FloatingButtons';
+import AIChatAssistant from './AIChatAssistant';
+import Footer from './Footer';
 
 export default function App() {
   return (
