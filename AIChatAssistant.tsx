@@ -89,7 +89,6 @@ export default function AIChatAssistant() {
     { label: language === 'ta' ? 'மெனு & விலைகள்' : language === 'hi' ? 'मेन्यू और कीमतें' : 'Menu & Prices', query: 'Show me the menu and prices' },
     { label: language === 'ta' ? 'வேலை நேரம்' : language === 'hi' ? 'खुलने का समय' : 'Opening Hours', query: 'What are your working hours?' },
     { label: language === 'ta' ? 'முகவரி' : language === 'hi' ? 'पता' : 'Location', query: 'Where is Al Alif located?' },
-    { label: language === 'ta' ? 'சிறப்பு சலுகைகள்' : language === 'hi' ? 'विशेष ऑफ़र' : 'Special Offers', query: 'What special offers do you have?' },
   ];
 
   return (
