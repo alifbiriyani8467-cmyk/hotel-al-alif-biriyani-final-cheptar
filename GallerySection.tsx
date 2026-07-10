@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GALLERY_ITEMS } from '../data';
+import { GALLERY_ITEMS } from './data';
 import { Maximize2, X, ChevronLeft, ChevronRight, Image } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
